@@ -16,5 +16,5 @@ Feature: add product to the basket and checking if this item is in the basket an
     When press 'Искать на Ozon' button and type information about product and press button with 'Magnifier' icon
     And check book details and press 'В корзину' button
     And press 'Корзина' button in header
-    And check full Basket with the "(2020)Хроники Нарнии (ил. П. Бейнс) / The Magician's Nephew (для всех серий)" and "528"
+    And check full Basket with the "(2020)Хроники Нарнии (ил. П. Бейнс) / The Magician's Nephew (для всех серий)" and "716"
     Then the product will be in basket and you can go to registration and close browser

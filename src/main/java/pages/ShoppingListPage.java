@@ -42,7 +42,7 @@ public class ShoppingListPage extends MainPage {
 
     public ShoppingListPage checkProductPrice() {
         String notFormatPrice = contextDetails.get(1).findElement(By.cssSelector("span")).getText();
-        assertEquals(notFormatPrice.replace(" ₽", ""), "528");
+        assertEquals(notFormatPrice.replace(" ₽", ""), "716");
         return this;
     }
 }
